@@ -2,12 +2,14 @@
 Parcing of recruiting web-site (hh.ru) for discovering skills demanded from perspective teachers. 
 
 (English version. For Russian-language version scroll down). 
-**Research of the demands to perspective teachers of employers from HeadHunter.ru. **
+
+Research of the demands to perspective teachers of employers from HeadHunter.ru.
 
 **Aim.** To discover, which skills are in demand in teaching according to the descriptions of vacancies for teachers on recruiting website hh.ru. 
 Motivation. To know online courses on which topics would be relevant to the demands of the modern labour market in area of education. As I manage the production of online-courses at the university in Moscow and want to implement data-driven approach in my work. 
 
 **Methodology. **
+
 The analysis was done in two parts. 
 
 At first, I created a small database in Excel file with the information about vacancies of teachers according to the criteria I indicated. Precisely, I included such data about each vacancy as name, demanded experience, schedule, type of employment, name of the employer, salary_from, salary_to, publication date, key_skills, description. The database was of 1035 vacancies that were not archived in April 2021 and available in Moscow only. For creating the database I used request module in python script and API for hh.ru. 
