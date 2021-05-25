@@ -3,12 +3,14 @@ Parcing of recruiting web-site (hh.ru) for discovering skills demanded from pers
 
 (English version. For Russian-language version scroll down). 
 
-Research of the demands to perspective teachers of employers from HeadHunter.ru.
+# Research of the demands to perspective teachers of employers from HeadHunter.ru.
 
-**Aim.** To discover, which skills are in demand in teaching according to the descriptions of vacancies for teachers on recruiting website hh.ru. 
-Motivation. To know online courses on which topics would be relevant to the demands of the modern labour market in area of education. As I manage the production of online-courses at the university in Moscow and want to implement data-driven approach in my work. 
+### Aim. 
+To discover, which skills are in demand in teaching according to the descriptions of vacancies for teachers on recruiting website hh.ru. 
+### Motivation. 
+To know online courses on which topics would be relevant to the demands of the modern labour market in area of education. As I manage the production of online-courses at the university in Moscow and want to implement data-driven approach in my work. 
 
-**Methodology. **
+## Methodology.
 
 The analysis was done in two parts. 
 
@@ -19,22 +21,22 @@ At second, I downloaded the database into pandas DataFrame and implemented small
 Basically, I counted the noticing of different skills in the section “key_skills” of several datasets (mentioned above) of my database. 
 Also, I compared salaries in vacancies grouped by the mentioned above two parameters (“demanded experience” and “schedule”) and grouped by the most active employers and all employers together. 
 
-****Results. ****
+## Results. 
 
 Employers on hh.ru that publish vacancies in teaching want to have the following skills in their perspective employees no matter how many vacancies they publish (let’s call these demands ‘general demands’). 
 
-•	literacy; 
-•	teamwork; 
-•	distant learning; 
-•	English; 
-•	management; 
-•	presentations skills (including creating presentations); 
-•	communication (including business and group communication); 
-•	individual learning; 
-•	creative thinking; 
-•	psychology; 
-•	information literacy (or ability to work with big amounts of information); 
-•	programming languages: Python, JavaScript, SQL, C#, web. 
+-	literacy; 
+-	teamwork; 
+-	distant learning; 
+-	English; 
+-	management; 
+-	presentations skills (including creating presentations); 
+-	communication (including business and group communication); 
+-	individual learning; 
+-	creative thinking; 
+-	psychology; 
+-	information literacy (or ability to work with big amounts of information); 
+-	programming languages: Python, JavaScript, SQL, C#, web. 
 
 Project work doesn’t demand special skills as the range of skills there is very narrow.
 
@@ -46,7 +48,7 @@ Moreover, in the vacancies with the demanded experience of more that 6 years the
 
 Regarding the salaries, the analysis shown that the start salary for teachers with any work-experience except 6 years is 40 000 rubles, while the mean salary is from 40 to 80 thousand rubles. For teachers with 6-years work-experience the mean salary is between 75 and 150 thousand rubles. Besides teachers with the work-experience up to 3 years may get the salary up to 100 000 rubles. 
 
-**Conclusion. **
+## Conclusion.
 
 The must-have skills for all teachers are teamwork, communication, psychology, presentation skills. In dependance of work schedule and work-experience employers may demand such skills as creative thinking, management, service-skills, individual and distant learning, information literacy. This may be linked to the trends for online-education and implementation of customization into education.
 
@@ -60,16 +62,19 @@ Thus, I recommend to develop online-course on the following topics.
 
 
 РУССКОЯЗЫЧНОЕ ОПИСАНИЕ
-**Исследование требований работодателей с HeadHunter.ru к преподавателям. **
 
-**Исследовательский вопрос:** Какие навыки требуют от преподавателей работодатели, публикующие вакансии на сайте HeadHunter.ru?
+# Исследование требований работодателей с HeadHunter.ru к преподавателям. 
 
-**Цель исследования.** Определить навыки, которые требуют от преподавателей работодатели на сайте HeadHunter.ru.
+### Исследовательский вопрос:
+Какие навыки требуют от преподавателей работодатели, публикующие вакансии на сайте HeadHunter.ru?
 
-**Применение выводов исследования.**
+### Цель исследования.
+Определить навыки, которые требуют от преподавателей работодатели на сайте HeadHunter.ru.
+
+### Применение выводов исследования.
 На основе полученных данных можно понять, какие навыки следует формировать у обучающихся педагогических вузов, в том числе, с помощью онлайн-курсов.
 
-**Методология.**
+## Методология.
 
 Процесс сбора и анализа данных состоял из двух частей.
 
@@ -80,7 +85,7 @@ Thus, I recommend to develop online-course on the following topics.
 1.	место работы – Москва;
 2.	вакансия не находится в архиве;
 3.	в тексте названия вакансии содержится слово «преподаватель» (или «учитель», «педагог», «воспитатель» и аналогичные).
-4.	
+
 По каждой вакансии в таблицу Excel были собраны следующие данные:
 
 1.	название;
@@ -102,7 +107,7 @@ Thus, I recommend to develop online-course on the following topics.
 
 1.	Ключевые навыки, которые требуют самые активные работодатели из выбранных, т.е. те, которые опубликовали более пяти вакансий.
 2.	Навыки, которые требуют все работодатели, представленные в таблице.
-3.	
+
 В обоих датасетах были посчитаны упоминания тех или иных навыков и представлены в виде сводной таблицы.
 
 На втором этапе был создан датасет, в котором ключевые навыки были отсортированы в зависимости от их двух признаков:
@@ -114,22 +119,22 @@ Thus, I recommend to develop online-course on the following topics.
 
 На третьем этапе были проанализированы значения зарплат. Были проанализированы зарплаты по всем вакансиям, а также зарплаты по вакансиям по наборам, которые описаны выше (вакансиям, отсортированным по сочетаниям признаков «требуемый опыт работы» и «график работы по вакансии»).
 
-**Интерпретация результатов.**
+## Интерпретация результатов.
 
 Работодатели на сайте HeadHunter.ru, которые публикуют вакансии преподавателей, заинтересованы в наличии у соискателей следующих компетенций (вне зависимости от того, как много вакансий они публикуют): 
 
-•	грамотность (сюда же включается грамотная речь); 
-•	работа в команде; 
-•	дистанционное обучение (сюда же можно включить навыки пользования ПК); 
-•	английский язык; 
-•	организаторские навыки; 
-•	выступление на презентациях (ораторские навыки), включая создание презентаций с помощью программных средств; 
-•	коммуникация (деловая, межличностная, групповая); 
-•	индивидуальное обучение; 
-•	творческое мышление; 
-•	психология; 
-•	работа с большими объемами информации; 
-•	а также владение языками программирования: Python, JavaScript, SQL, C#, веб-языками. 
+-	грамотность (сюда же включается грамотная речь); 
+-	работа в команде; 
+-	дистанционное обучение (сюда же можно включить навыки пользования ПК); 
+-	английский язык; 
+-	организаторские навыки; 
+-	выступление на презентациях (ораторские навыки), включая создание презентаций с помощью программных средств; 
+-	коммуникация (деловая, межличностная, групповая); 
+-	индивидуальное обучение; 
+-	творческое мышление; 
+-	психология; 
+-	работа с большими объемами информации; 
+-	а также владение языками программирования: Python, JavaScript, SQL, C#, веб-языками. 
 
 Для удобства дальнейшей интерпретации результатов будем называть этот набор требуемых навыков общими требованиями. 
 
@@ -151,7 +156,7 @@ Thus, I recommend to develop online-course on the following topics.
 Количество вакансий с проектной работой очень низкое в выборке, чтобы можно было делать какие-либо выводы об объеме зарплат. Без опыта работы начинающий специалист может рассчитывать на зарплату в 50 000 рублей при частичной занятости и даже доходить до 100 000 рублей при полном рабочем дне. 
 Подытоживая, преподаватель в целом может рассчитывать на зарплату от 50 000 рублей при полной или частичной занятости и вне зависимости от своего профессионального опыта. 
 
-**Выводы. **
+## Выводы. 
 
 Обучающимся педагогических направлений подготовки или практикующим преподавателям, которые хотят совершенствовать свои компетенции, обязательно требуются такие навыки, как: работа в команде, навыки коммуникации, знания психологии и навыки презентаций (выступления и создания). В зависимости от типа занятости и опыта работодатели требуют творческое мышление и организаторские навыки, а также клиентоориентированность. Требования к индивидуализации обучения и дистанционному обучению продиктованы, вероятно, тенденциями перехода обучения в онлайн. Также среди требований - умение работать с большими объемами информации, что, вероятно, также продиктовано переходом обучения в онлайн и открытым и широким доступом к любой информации. 
 
