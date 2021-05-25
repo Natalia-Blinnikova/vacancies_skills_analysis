@@ -19,7 +19,7 @@ At second, I downloaded the database into pandas DataFrame and implemented small
 Basically, I counted the noticing of different skills in the section “key_skills” of several datasets (mentioned above) of my database. 
 Also, I compared salaries in vacancies grouped by the mentioned above two parameters (“demanded experience” and “schedule”) and grouped by the most active employers and all employers together. 
 
-**Results. **
+****Results. ****
 
 Employers on hh.ru that publish vacancies in teaching want to have the following skills in their perspective employees no matter how many vacancies they publish (let’s call these demands ‘general demands’). 
 
