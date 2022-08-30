@@ -3,9 +3,9 @@ Parcing of recruiting web-site (hh.ru) for discovering skills demanded from pers
 
 For Russian-language version scroll down.
 
-# Research of the demands to perspective teachers of employers from HeadHunter.ru.
+# Research of the demands to perspective teachers of employers from HeadHunter.ru
 
-## Product aim. 
+## Product aim 
 To know online courses on which topics would be relevant to the demands of the modern labour market in area of education. 
 ### Tasks 
 To create a small database in Excel file with the information about vacancies with features: name, demanded experience, schedule, type of employment, name of the employer, salary_from, salary_to, publication date, key_skills, description.
@@ -15,7 +15,7 @@ Implement exploratory data analysis (EDA) to know the employers demands.
 </br> I analysed the demands of the most active employers (that published more than 5 vacancies) and then the demands of all employers together. 
 </br> I compared salaries in vacancies grouped by various combinations of two parameters (“demanded experience” and “schedule”). 
 </br> I counted the noticing of different skills in the section “key_skills” of several datasets (mentioned above) of my database. 
-### Results.
+### Results
 The must-have skills for all teachers are teamwork, communication, psychology, presentation skills. In dependance of work schedule and work-experience employers may demand such skills as creative thinking, management, service-skills, individual and distant learning, information literacy. This may be linked to the trends for online-education and implementation of customization into education.
 
 Thus, I recommend to develop online-course on the following topics. 
@@ -39,10 +39,10 @@ Regarding the salaries, the analysis shown that the start salary for teachers wi
 
 РУССКОЯЗЫЧНОЕ ОПИСАНИЕ
 
-# Исследование требований работодателей с HeadHunter.ru к преподавателям. 
-## Продуктовая цель.
+# Исследование требований работодателей с HeadHunter.ru к преподавателям 
+## Продуктовая цель
 Понять, какие навыки следует формировать у обучающихся педагогических вузов, в том числе, с помощью онлайн-курсов. 
-### Задачи.
+### Задачи
 Первая часть – это создание базы данных с информацией о вакансиях преподавателя, размещенных на сайте HeadHunter.ru, каждая вакансия содержит следующие характеристики: 
 1. название;
 2.	требуемый опыт работы;
@@ -55,12 +55,12 @@ Regarding the salaries, the analysis shown that the start salary for teachers wi
 9.	описание вакансии;
 11.	ключевые навыки.
 Вторая часть – разведочный анализ данных. 
-### Что я сделала.
+### Что я сделала
 </br> Сформировала базу данных из 1035 вакансий с помощью библиотеки requests Python и API для hh.ru. 
 </br> Проанализировала требования наиболее активных работодателей (опубликовали более 5 вакансий) и отдельно требования всех работодателей.  
 </br> Сравнила зарплаты в 12 группах вакансий, сформированных комбинированием значений двух признаков: «требуемый опыт» и «график работы». 
 </br> Посчитала упоминания разных навыков в секции «ключевые навыки».
-### Выводы. 
+### Выводы 
 Обучающимся педагогических направлений подготовки или практикующим преподавателям, которые хотят совершенствовать свои компетенции, обязательно требуются такие навыки, как: работа в команде, навыки коммуникации, знания психологии и навыки презентаций (выступления и создания). В зависимости от типа занятости и опыта работодатели требуют творческое мышление и организаторские навыки, а также клиентоориентированность. Требования к индивидуализации обучения и дистанционному обучению продиктованы, вероятно, тенденциями перехода обучения в онлайн. Также среди требований - умение работать с большими объемами информации, что, вероятно, также продиктовано переходом обучения в онлайн и открытым и широким доступом к любой информации. 
 Таким образом, целесообразно создавать онлайн-курсы по следующим темам: 
 1.	Информационная грамотность. 
